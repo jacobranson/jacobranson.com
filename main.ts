@@ -6,6 +6,7 @@ blog({
   description: "Improvise. Adapt. Overcome.",
   avatar: "assets/avatar.jpeg",
   avatarClass: "rounded-full",
+  favicon: "favicon.ico",
   links: [
     { title: "Email", url: "mailto:contact@jacobranson.com" },
     { title: "GitHub", url: "https://github.com/jacobranson" },
