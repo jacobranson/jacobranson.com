@@ -1,22 +1,19 @@
-import blog, { ga, redirects } from "https://deno.land/x/blog@0.4.2/blog.tsx";
+import blog from "https://deno.land/x/blog@0.4.2/blog.tsx";
 
 blog({
-  title: "My Blog",
-  description: "This is my new blog.",
-  avatar: "https://deno-avatar.deno.dev/avatar/blog.svg",
+  author: "Jacob Ranson",
+  title: "Jacob Ranson",
+  description: "Improvise. Adapt. Overcome.",
+  avatar: "assets/avatar.jpeg",
   avatarClass: "rounded-full",
-  author: "An author",
-
-  // middlewares: [
-
-    // If you want to set up Google Analytics, paste your GA key here.
-    // ga("UA-XXXXXXXX-X"),
-
-    // If you want to provide some redirections, you can specify them here,
-    // pathname specified in a key will redirect to pathname in the value.
-    // redirects({
-    //  "/hello_world.html": "/hello_world",
-    // }),
-
-  // ]
+  links: [
+    { title: "Email", url: "mailto:contact@jacobranson.com" },
+    { title: "GitHub", url: "https://github.com/jacobranson" },
+    {
+      title: "LinkedIn",
+      url: "https://www.linkedin.com/in/jacobrileighranson/",
+    },
+  ],
+  lang: "en",
+  dateStyle: "long",
 });
