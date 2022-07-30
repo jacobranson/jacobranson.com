@@ -1,6 +1,6 @@
 ---
 title: Self Improvement
-publish_date: 2022-07-29
+publish_date: 2022-07-30
 ---
 
 Time flies. 23 years old, 1 year post-undergrad, and still so much to figure out. I have a habit of biting off more than I can chew. I suppose I thrive under the pressure, or maybe it's all I know how to do.
